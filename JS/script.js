@@ -24,12 +24,15 @@ let moltiplicazione = 0.21 * km;
   console.log(quarantapercento);
 
  if(age<18){
-    elemento.innerHTML=`costo Biglietto: ${ventipercento.toFixed(2)}`;   
+    elemento.innerHTML=`Costo biglietto: ${ventipercento.toFixed(2)}`;   
 }
 
- if(age>65){
-    elemento.innerHTML=`costo Biglietto: ${quarantapercento.toFixed(2)}`;   
+ else if(age>65){
+    elemento.innerHTML=`Costo biglietto: ${quarantapercento.toFixed(2)}`;   
 }
+ else{
+    elemento.innerHTML=`Costo biglietto: ${moltiplicazione.toFixed(2)}`;
+ }
 
 
 
