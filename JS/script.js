@@ -31,6 +31,5 @@ let moltiplicazione = 0.21 * km;
     elemento.innerHTML=`costo Biglietto: ${quarantapercento.toFixed(2)}`;   
 }
 
- //..Riduco il numero di decimali.
 
 
